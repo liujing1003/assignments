@@ -37,10 +37,10 @@ int main()
         pt=t/n;
         pl=l/n;
         cout.setf(ios::fixed);
-        cout<<"1-18: "<< setprecision(2)<<pf*100<<"%"<<endl;
-        cout<<"19-35: "<< setprecision(2)<<ps*100<<"%"<<endl;
-        cout<<"36-60: "<< setprecision(2)<<pt*100<<"%"<<endl;
-        cout<<"60-: "<< setprecision(2)<<pl*100<<"%"<<endl;
+        cout<< setprecision(2)<<pf*100<<"%"<<endl;
+        cout<< setprecision(2)<<ps*100<<"%"<<endl;
+        cout<< setprecision(2)<<pt*100<<"%"<<endl;
+        cout<< setprecision(2)<<pl*100<<"%"<<endl;
     }
     return 0;
 }
