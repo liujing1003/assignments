@@ -37,6 +37,6 @@ int main()
             }
         }
     }
-    cout << word << endl;
+    cout << word << endl；
     return 0;
 }
