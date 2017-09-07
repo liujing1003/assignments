@@ -18,9 +18,9 @@ int main()
                 {
                     word[k] = sentence[i-j+k];
                 }
-            }
+            }           
             j = 0;
-        }
+        } 
         else
         {
             j++;
@@ -35,8 +35,8 @@ int main()
             {
                 word[k] = sentence[i-j+k];
             }
-        }
+        }       
     }
-    cout << word << endl；
+    cout << word << endl;
     return 0;
 }
