@@ -13,7 +13,7 @@ int main()
 
     int n=0;
     cin>>n;
-    vector<float> x(n,0),y(n,0);//ÉùÃ÷ÁËÁ½¸ö¶¯Ì¬floatÊı×éx,y
+    vector<float> x(n,0),y(n,0);//å£°æ˜äº†ä¸¤ä¸ªfloatå‹æ•°ç»„å¤§å°æ²¡æœ‰æŒ‡å®š
     float dis=0,disbiggest=0;
     for(int i=0;i<n;i++)
     {
