@@ -10,7 +10,7 @@ int founction(char str[], int s)//将str，1copy一份赋给形参str[],和s
     }
     else//如果读入的字符是man
     {
-        n = founction(str, s + 1)；//再次调用founction函数，并且s+1
+        n = founction(str, s + 1);//再次调用founction函数，并且s+1
         cout << s << ' ' << n << endl;
         return founction(str, n + 1);
     }
