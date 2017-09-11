@@ -3,8 +3,7 @@
 using namespace std;
 int main()
 {
-    char c[140] =
-    { };
+    char c[140] = { };
     int i, j;
     int s = -1, e;
     while (cin.getline(c, 140))
@@ -16,7 +15,7 @@ int main()
             if (c[i] != '(' && c[i] != ')')
                 c[i] = ' ';
         }
-        while (1)
+        while (1)//一直循环直到遇到break
         {
             for (i = 0; i < l; i++)
             {
@@ -28,7 +27,7 @@ int main()
                     break;
                 }
             }
-            if (i == l)       //如果已经匹配完所有的)的情况，吧所有的未匹配的(变成$。
+            if (i == l)       //如果已经匹配完所有的)的情况，把所有的未匹配的(变成$。
             {
                 for (j = 0 ; j < l ; j ++)
                 {
