@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <cstdlib>
 using namespace std;
 class CShape       //基类：形体类
 {
@@ -117,6 +118,4 @@ error:
 几何形体程序.cpp:97:9: error: ‘pShapes’ was not declared in this scope
    qsort(pShapes,n,sizeof(CShape*),MyCompare);
          ^
-几何形体程序.cpp:97:44: error: ‘qsort’ was not declared in this scope
-   qsort(pShapes,n,sizeof(CShape*),MyCompare);
-                                            ^
+
