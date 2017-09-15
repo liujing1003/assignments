@@ -53,7 +53,7 @@ void CTriangle::PrintInfo()
 {
   cout<<"Triangle:"<<Area()<<endl;
 }
-CShape* pShape[100];    //用来存放各种几何图形，假设不超过100个
+CShape* pShapes[100];    //用来存放各种几何图形，假设不超过100个
 int MyCompare(const void* s1,const void* s2)   //定义排序规则的函数
 {
   CShape** p1=(CShape**)s1;   //s1是指向指针的指针，其指向的指针为CShape*类型
@@ -110,12 +110,4 @@ int main()
 
 
 
-error:
-几何形体程序.cpp: In function ‘int main()’:
-几何形体程序.cpp:83:7: error: ‘pShapes’ was not declared in this scope
-       pShapes[i]=pr;
-       ^
-几何形体程序.cpp:97:9: error: ‘pShapes’ was not declared in this scope
-   qsort(pShapes,n,sizeof(CShape*),MyCompare);
-         ^
 
